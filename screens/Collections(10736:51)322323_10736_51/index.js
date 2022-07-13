@@ -79,4 +79,4 @@ const mapStateToProps = state => {
 const mapDispatchToProps = () => {
   return {}
 }
-export default connect(mapStateToProps, mapDispatchToProps)(Blank)
+export default Blank;
