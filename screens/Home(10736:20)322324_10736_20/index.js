@@ -1,145 +1,68 @@
-import React from "react"
-import {
-  View,
-  Image,
-  ImageBackground,
-  TouchableOpacity,
-  Text,
-  Button,
-  Switch,
-  TextInput,
-  StyleSheet,
-  ScrollView
-} from "react-native"
-import Icon from "react-native-vector-icons/FontAwesome"
-import { CheckBox } from "react-native-elements"
-import { connect } from "react-redux"
-import {
-  widthPercentageToDP as wp,
-  heightPercentageToDP as hp
-} from "react-native-responsive-screen"
-import { getNavigationScreen } from "@screens"
+import React from "react";
+import { View, ImageBackground, TouchableOpacity, Text, StyleSheet, ScrollView } from "react-native";
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from "react-native-responsive-screen";
+import { getNavigationScreen } from "@screens";
 export class Blank extends React.Component {
   constructor(props) {
-    super(props)
-
-    this.state = {}
+    super(props);
+    this.state = {};
   }
-  render = () => (
-    <ScrollView
-      contentContainerStyle={{ flexGrow: 1 }}
-      style={styles.ScrollView_1}
-    >
+
+  render = () => <ScrollView contentContainerStyle={{
+    flexGrow: 1
+  }} style={styles.ScrollView_1}>
       <View style={styles.View_2} />
       <View style={styles.View_10736_21} />
-      <ImageBackground
-        source={{
-          uri:
-            "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d0b3e648-f037-4803-947b-8321ed44b2f0"
-        }}
-        style={styles.ImageBackground_10736_22}
-      />
+      <ImageBackground source={{
+      uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d0b3e648-f037-4803-947b-8321ed44b2f0"
+    }} style={styles.ImageBackground_10736_22} />
       <View style={styles.View_10736_23}>
-        <TouchableOpacity
-          style={styles.TouchableOpacity_10736_24}
-          onPress={() =>
-            this.props.navigation.navigate(getNavigationScreen("10736_51"))
-          }
-        >
-          <ImageBackground
-            source={{
-              uri:
-                "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/fd7f2050-324f-48a3-9b9d-caa5886d6479"
-            }}
-            style={styles.ImageBackground_10736_25}
-          />
+        <TouchableOpacity style={styles.TouchableOpacity_10736_24} onPress={() => this.props.navigation.navigate(getNavigationScreen("10736_51"))}>
+          <ImageBackground source={{
+          uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/fd7f2050-324f-48a3-9b9d-caa5886d6479"
+        }} style={styles.ImageBackground_10736_25} />
           <View style={styles.View_10736_26}>
             <Text style={styles.Text_10736_26}>Stickers</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.TouchableOpacity_10736_27}
-          onPress={() =>
-            this.props.navigation.navigate(getNavigationScreen("10736_51"))
-          }
-        >
-          <ImageBackground
-            source={{
-              uri:
-                "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b08ecf09-d271-4b45-b123-4c09c8d57fb2"
-            }}
-            style={styles.ImageBackground_10736_28}
-          />
+        <TouchableOpacity style={styles.TouchableOpacity_10736_27} onPress={() => this.props.navigation.navigate(getNavigationScreen("10736_51"))}>
+          <ImageBackground source={{
+          uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b08ecf09-d271-4b45-b123-4c09c8d57fb2"
+        }} style={styles.ImageBackground_10736_28} />
           <View style={styles.View_10736_29}>
             <Text style={styles.Text_10736_29}>T-shirt</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.TouchableOpacity_10736_30}
-          onPress={() =>
-            this.props.navigation.navigate(getNavigationScreen("10736_51"))
-          }
-        >
-          <ImageBackground
-            source={{
-              uri:
-                "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/54e8a34c-f32a-441d-87c4-6ea286817dbc"
-            }}
-            style={styles.ImageBackground_10736_31}
-          />
+        <TouchableOpacity style={styles.TouchableOpacity_10736_30} onPress={() => this.props.navigation.navigate(getNavigationScreen("10736_51"))}>
+          <ImageBackground source={{
+          uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/54e8a34c-f32a-441d-87c4-6ea286817dbc"
+        }} style={styles.ImageBackground_10736_31} />
           <View style={styles.View_10736_32}>
             <Text style={styles.Text_10736_32}>Tote Bag</Text>
           </View>
         </TouchableOpacity>
       </View>
       <View style={styles.View_10736_33}>
-        <TouchableOpacity
-          style={styles.TouchableOpacity_10736_34}
-          onPress={() =>
-            this.props.navigation.navigate(getNavigationScreen("10736_51"))
-          }
-        >
-          <ImageBackground
-            source={{
-              uri:
-                "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b234f512-23eb-4b78-a121-59b1d732b39c"
-            }}
-            style={styles.ImageBackground_10736_35}
-          />
+        <TouchableOpacity style={styles.TouchableOpacity_10736_34} onPress={() => this.props.navigation.navigate(getNavigationScreen("10736_51"))}>
+          <ImageBackground source={{
+          uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b234f512-23eb-4b78-a121-59b1d732b39c"
+        }} style={styles.ImageBackground_10736_35} />
           <View style={styles.View_10736_36}>
             <Text style={styles.Text_10736_36}>Stickers</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.TouchableOpacity_10736_37}
-          onPress={() =>
-            this.props.navigation.navigate(getNavigationScreen("10736_51"))
-          }
-        >
-          <ImageBackground
-            source={{
-              uri:
-                "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3bb8cf8f-3184-490c-aea8-f6a185255515"
-            }}
-            style={styles.ImageBackground_10736_38}
-          />
+        <TouchableOpacity style={styles.TouchableOpacity_10736_37} onPress={() => this.props.navigation.navigate(getNavigationScreen("10736_51"))}>
+          <ImageBackground source={{
+          uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3bb8cf8f-3184-490c-aea8-f6a185255515"
+        }} style={styles.ImageBackground_10736_38} />
           <View style={styles.View_10736_39}>
             <Text style={styles.Text_10736_39}>T-shirt</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.TouchableOpacity_10736_40}
-          onPress={() =>
-            this.props.navigation.navigate(getNavigationScreen("10736_51"))
-          }
-        >
-          <ImageBackground
-            source={{
-              uri:
-                "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/57d779cc-1ca9-497a-9220-bbc02a72c9c4"
-            }}
-            style={styles.ImageBackground_10736_41}
-          />
+        <TouchableOpacity style={styles.TouchableOpacity_10736_40} onPress={() => this.props.navigation.navigate(getNavigationScreen("10736_51"))}>
+          <ImageBackground source={{
+          uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/57d779cc-1ca9-497a-9220-bbc02a72c9c4"
+        }} style={styles.ImageBackground_10736_41} />
           <View style={styles.View_10736_42}>
             <Text style={styles.Text_10736_42}>Tote Bag</Text>
           </View>
@@ -158,13 +81,15 @@ export class Blank extends React.Component {
           <Text style={styles.Text_10736_47}>New Products</Text>
         </View>
       </View>
-    </ScrollView>
-  )
+    </ScrollView>;
 }
-
 const styles = StyleSheet.create({
-  ScrollView_1: { backgroundColor: "rgba(255, 255, 255, 1)" },
-  View_2: { height: hp("138%") },
+  ScrollView_1: {
+    backgroundColor: "rgba(255, 255, 255, 1)"
+  },
+  View_2: {
+    height: hp("138%")
+  },
   View_10736_21: {
     width: wp("100%"),
     minWidth: wp("100%"),
@@ -571,12 +496,14 @@ const styles = StyleSheet.create({
     letterSpacing: 0,
     textTransform: "none"
   }
-})
+});
 
 const mapStateToProps = state => {
-  return {}
-}
+  return {};
+};
+
 const mapDispatchToProps = () => {
-  return {}
-}
-export default Blank
+  return {};
+};
+
+export default Blank;
