@@ -1,7 +1,7 @@
 import React from "react";
 import { View, ImageBackground, TouchableOpacity, Text, StyleSheet, ScrollView } from "react-native";
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from "react-native-responsive-screen";
-import { getNavigationScreen } from "@screens";
+
 export class Blank extends React.Component {
   constructor(props) {
     super(props);
@@ -17,7 +17,8 @@ export class Blank extends React.Component {
       uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d0b3e648-f037-4803-947b-8321ed44b2f0"
     }} style={styles.ImageBackground_10736_22} />
       <View style={styles.View_10736_23}>
-        <TouchableOpacity style={styles.TouchableOpacity_10736_24} onPress={() => this.props.navigation.navigate(getNavigationScreen("10736_51"))}>
+        {/* Had to remove navigation props */}
+        <TouchableOpacity style={styles.TouchableOpacity_10736_24} onPress={() => this.props.navigation.navigate("10736_51")}>
           <ImageBackground source={{
           uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/fd7f2050-324f-48a3-9b9d-caa5886d6479"
         }} style={styles.ImageBackground_10736_25} />
