@@ -26,7 +26,7 @@ export class Blank extends React.Component {
             <Text style={styles.Text_10736_26}>Stickers</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.TouchableOpacity_10736_27} onPress={() => this.props.navigation.navigate(getNavigationScreen("10736_51"))}>
+        <TouchableOpacity style={styles.TouchableOpacity_10736_27} onPress={() => this.props.navigation.navigate("10736_51")}>
           <ImageBackground source={{
           uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b08ecf09-d271-4b45-b123-4c09c8d57fb2"
         }} style={styles.ImageBackground_10736_28} />
@@ -34,7 +34,7 @@ export class Blank extends React.Component {
             <Text style={styles.Text_10736_29}>T-shirt</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.TouchableOpacity_10736_30} onPress={() => this.props.navigation.navigate(getNavigationScreen("10736_51"))}>
+        <TouchableOpacity style={styles.TouchableOpacity_10736_30} onPress={() => this.props.navigation.navigate("10736_51")}>
           <ImageBackground source={{
           uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/54e8a34c-f32a-441d-87c4-6ea286817dbc"
         }} style={styles.ImageBackground_10736_31} />
@@ -44,7 +44,7 @@ export class Blank extends React.Component {
         </TouchableOpacity>
       </View>
       <View style={styles.View_10736_33}>
-        <TouchableOpacity style={styles.TouchableOpacity_10736_34} onPress={() => this.props.navigation.navigate(getNavigationScreen("10736_51"))}>
+        <TouchableOpacity style={styles.TouchableOpacity_10736_34} onPress={() => this.props.navigation.navigate("10736_51")}>
           <ImageBackground source={{
           uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b234f512-23eb-4b78-a121-59b1d732b39c"
         }} style={styles.ImageBackground_10736_35} />
@@ -52,7 +52,7 @@ export class Blank extends React.Component {
             <Text style={styles.Text_10736_36}>Stickers</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.TouchableOpacity_10736_37} onPress={() => this.props.navigation.navigate(getNavigationScreen("10736_51"))}>
+        <TouchableOpacity style={styles.TouchableOpacity_10736_37} onPress={() => this.props.navigation.navigate("10736_51")}>
           <ImageBackground source={{
           uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/3bb8cf8f-3184-490c-aea8-f6a185255515"
         }} style={styles.ImageBackground_10736_38} />
@@ -60,7 +60,7 @@ export class Blank extends React.Component {
             <Text style={styles.Text_10736_39}>T-shirt</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.TouchableOpacity_10736_40} onPress={() => this.props.navigation.navigate(getNavigationScreen("10736_51"))}>
+        <TouchableOpacity style={styles.TouchableOpacity_10736_40} onPress={() => this.props.navigation.navigate("10736_51")}>
           <ImageBackground source={{
           uri: "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/57d779cc-1ca9-497a-9220-bbc02a72c9c4"
         }} style={styles.ImageBackground_10736_41} />
