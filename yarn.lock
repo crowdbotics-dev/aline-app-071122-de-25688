@@ -1229,7 +1229,10 @@
     redux-thunk "^2.4.1"
     reselect "^4.1.5"
 
-"@screens/add-payment-method@file:./screens/add-payment-method/":
+"@screens/add-payment-method@file:./screens/add-payment-method":
+  version "1.0.0"
+
+"@screens/barcode-scanner@file:./screens/barcode-scanner/":
   version "1.0.0"
 
 "@sideway/address@^4.1.3":
