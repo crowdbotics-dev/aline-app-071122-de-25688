@@ -6,7 +6,9 @@ const pressed = () => {
 };
 
 const ActivityFeedScreen = () => {
-  return <ScrollView>
+  return <ScrollView style={{
+    backgroundColor: "#ffffff"
+  }}>
       <View style={styles.container}>
         <View style={styles.headerContainer}>
           <ProfileImage />
@@ -60,8 +62,7 @@ const ActivityFeedScreen = () => {
 const styles = StyleSheet.create({
   container: {
     padding: 10,
-    height: "100%",
-    backgroundColor: "white"
+    height: "100%"
   },
   followingSection: {
     display: "flex",
